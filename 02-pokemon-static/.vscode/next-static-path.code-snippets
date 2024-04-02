@@ -1,0 +1,10 @@
+{
+  "next-static-path": {
+    "scope": "tsx",
+    "prefix": "next-static-path",
+    "body": [
+      "export const getStaticPaths: GetStaticPaths = async (ctx) => {\r\n\r\n  \r\n  return {\r\n    paths: [\r\n      {\r\n        params: {\r\n\r\n        }\r\n      },\r\n    ],\r\n    fallback: \"blocking\"\r\n  }\r\n};"
+    ],
+    "description": "Static Path from Next"
+  }
+}
